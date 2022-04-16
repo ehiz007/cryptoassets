@@ -73,7 +73,7 @@ class App extends React.Component {
             </div>
           </div>
         )}
-        <div className="max-w-4xl mx-auto p-2 mt-5 grid grid-cols-3 gap-6">
+        <div className="max-w-4xl mx-auto p-2 mt-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {this.state.assets.length > 0 &&
             this.state.assets.map((asset, index) => {
               if (
